@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jasta Noel McClendon Dudley" >
+  <meta name="description" content="Contact A Caring Manor in Queen Creek, AZ. Send us a message or schedule a tour." >
+  <title>Contact | A Caring Manor</title>
+  <link rel="stylesheet" href="styles/styles.css" >
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <img src="images/a-caring-manor-logo.png" alt="A Caring Manor Logo" class="logo">
+      <h1>A Caring Manor</h1>
+    </div>
+    <nav>
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="locations">
+        <h2>Our Homes</h2>
+      
+        <div class="location-card">
+          <h3>A Caring Manor I</h3>
+          <p>Manager: Yvonne & Jim Dudley</p>
+          <p><a href="https://www.google.com/maps/place/20338+E+Via+Del+Oro,+Queen+Creek,+AZ+85142" target="_blank">
+            20338 E Via Del Oro #6270, Queen Creek, AZ 85142
+          </a></p>
+          <p>Phone: (480) 123-4567</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3326.764539931359!2d-111.63528908480215!3d33.24437248085208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872ba1bd1f68b3c5%3A0xdee5705932be9f01!2s20338+E+Via+Del+Oro%2C+Queen+Creek%2C+AZ+85142!5e0!3m2!1sen!2sus!4v1712600000000"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      
+        <div class="location-card">
+          <h3>A Caring Manor II</h3>
+          <p>Manager: Alisha & Danny Loosemore</p>
+          <p><a href="https://www.google.com/maps/place/18642+E+Cloud+Rd,+Queen+Creek,+AZ+85142" target="_blank">
+            18642 E. Cloud Rd, Queen Creek, AZ 85142
+          </a></p>
+          <p>Phone: (480) 765-4321</p>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3327.1884395459336!2d-111.66775068480206!3d33.2474601808526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872ba2606de0c9b1%3A0x16f15e2f3a3321f!2s18642+E+Cloud+Rd%2C+Queen+Creek%2C+AZ+85142!5e0!3m2!1sen!2sus!4v1712600000001"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </section>
+
+    <section class="hours">
+        <h2>Visiting Hours</h2>
+        <p>We welcome visitors by appointment or walk-in between <strong>10:00 AM – 6:00 PM</strong>, Monday through Saturday.</p>
+      </section>
+  
+      <section class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required >
+          </div>
+        
+          <div class="form-group">
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required >
+          </div>
+        
+          <div class="form-group">
+            <label for="roomType">Room Preference:</label>
+            <select id="roomType" name="roomType" required>
+              <option value="" disabled selected>Select one...</option>
+              <option value="private">Private Room</option>
+              <option value="semi-private">Semi-Private Room</option>
+            </select>
+          </div>
+        
+          <div class="form-group">
+            <label for="tour">Request a Tour Date (optional):</label>
+            <input type="date" id="tour" name="tour" >
+          </div>
+        
+          <div class="form-group">
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="How can we help you?"></textarea>
+          </div>
+        
+          <div class="form-group">
+            <input type="submit" value="Send us Your Message" >
+          </div>
+        </form>        
+      </section>
+    </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Jasta Dudley | <a href="references.html">References</a></p>
+    <p id="lastModified"></p>
+  </footer>
+
+  <script src="scripts/main.js" defer></script>
+</body>
+</html>
