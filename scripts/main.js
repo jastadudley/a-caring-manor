@@ -27,8 +27,8 @@ document.getElementById("visitMessage").textContent =
 // ───────────────────────────────────────────────────────── Photo Carousel ───────────────────────────────────────────────────────────
 const carouselImages = [
   { src: "images/residents-collage.jpg", alt: "Residents enjoying activities at A Caring Manor" },
-  { src: "images/baby-goat-june.jpg", alt: "June the baby goat at A Caring Manor" },
-  { src: "images/bingo-night.jpg", alt: "Bingo night at A Caring Manor" },
+  { src: "images/baby-goat-june.jpg", alt: "June with baby goat at A Caring Manor II" },
+  { src: "images/bingo-night.jpg", alt: "Bingo night at A Caring Manor I" },
   { src: "images/fourth-of-july-dining-table.jpg", alt: "Fourth of July celebration at A Caring Manor" },
   { src: "images/pt-with-marcus.jpg", alt: "Physical therapy with Marcus at A Caring Manor" },
 ];
