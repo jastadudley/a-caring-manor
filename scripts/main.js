@@ -72,7 +72,7 @@ if (track) {
   }
 
   function startAutoplay() {
-    autoplayTimer = setInterval(() => goTo(currentIndex + 1), 4500);
+    autoplayTimer = setInterval(() => goTo(currentIndex + 1), 7000);
   }
 
   prevBtn.addEventListener("click", () => { goTo(currentIndex - 1); clearInterval(autoplayTimer); startAutoplay(); });

@@ -138,7 +138,7 @@ main section {
 .life-section {
   text-align: center;
   padding: 2rem 1rem;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 2rem auto;
   background-color: #ffffff;
   border-radius: 8px;
@@ -163,7 +163,7 @@ main section {
 .carousel-track {
   display: flex;
   width: 100%;
-  height: 360px;
+  height: 480px;
   position: relative;
 }
 
